@@ -1,6 +1,6 @@
-# My Audio to Score
+# TUTTI
 
-**My_A2S** is a deep learning system for audio to score (A2S), converting audio recordings directly into symbolic music notation in [ABC format](https://abcnotation.com/).
+**TUTTI** is a deep learning system for audio to score (A2S), converting audio recordings directly into symbolic music notation in [ABC format](https://abcnotation.com/).
 
 ## Overview
 
