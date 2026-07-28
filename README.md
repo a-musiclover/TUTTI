@@ -9,6 +9,7 @@ Given an audio recording as input, it generates a structured ABC notation transc
 ## Status
 
 > 🚧 This repository is a work in progress. The pretrain data, full code and model weights will be released upon paper publication.
+> I promise I will update everything (especially the data, I know you are waiting for it, ASAP!)
 
 ## Requirements
 
