@@ -9,13 +9,24 @@ Given an audio recording as input, it generates a structured ABC notation transc
 ## Status
 
 > 🚧 This repository is a work in progress. The pretrain data, full code and model weights will be released upon paper publication.
-> I promise I will update everything (especially the data, I know you are waiting for it, ASAP!)
+> I promise I will update everything (especially the data) ASAP!)
 
 ## Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
+
+## Suggested Layout
+
+Keep dataset files under `data/` and let each training stage own its own outputs:
+
+- `data/partitions/asap/...` for finetune splits
+- `data/partitions/quartet_only/...` for pretrain splits
+- `pretrain/outputs/...` for pretrain checkpoints, logs, and generated files
+- `finetune/outputs/...` for finetune checkpoints, logs, and generated files
+
+
 
 ## Citation
 
