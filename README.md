@@ -17,17 +17,6 @@ Given an audio recording as input, it generates a structured ABC notation transc
 pip install -r requirements.txt
 ```
 
-## Suggested Layout
-
-Keep dataset files under `data/` and let each training stage own its own outputs:
-
-- `data/partitions/asap/...` for finetune splits
-- `data/partitions/quartet_only/...` for pretrain splits
-- `pretrain/outputs/...` for pretrain checkpoints, logs, and generated files
-- `finetune/outputs/...` for finetune checkpoints, logs, and generated files
-
-
-
 ## Citation
 
 If you find this work relevant to your research, please check back for our upcoming publication.
