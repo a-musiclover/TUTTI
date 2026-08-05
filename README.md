@@ -19,8 +19,22 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you find this work relevant to your research, please check back for our upcoming publication.
+Our paper has been accepted by **ISMIR 2026**! 
+
+The official camera-ready paper and arXiv preprint will be available soon. For now, if you use **TUTTI**, our dataset, or code in your research, please cite us using the following BibTeX entry:
+
+```bibtex
+@inproceedings{hu2026tutti,
+  title     = {TUTTI: Toward Generalizable Audio-to-Score Transcription via Fully Synthesized Data},
+  author    = {Hu, Jianhuai and Wang, Yashan and Wu, Shangda and Guo, Zhancheng and Liang, Shijie and Meng, Wuna and Yang, Chuanqi and Li, Xiaobing and Yu, Feng and Sun, Maosong},
+  booktitle = {Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)},
+  year      = {2026},
+  note      = {Accepted for publication},
+  url       = {[https://github.com/a-musiclover/TUTTI](https://github.com/a-musiclover/TUTTI)}
+}
+```
 
 ## License
 
-This project is licensed under the MIT License.
+* **Code**: Standard [MIT License](LICENSE).
+* **Dataset (TuttiCorpus)**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (Non-Commercial use only).
